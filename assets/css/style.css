@@ -206,7 +206,7 @@ p{
 .merch-items:nth-child(8){
   margin-right: 0;
 }
-img{
+.merch-items img{
   width: 100%;
   height: 350px;
   object-fit: cover;
@@ -475,49 +475,58 @@ form input[type="submit"]{
 
 /* Popular Coffee Flavors Area */
 .flavors{
-  border:4px solid red;
+  /* border:4px solid red; */
   width:85%;
   margin: 4em auto;
   overflow:auto;
-  background-color: #c7a17a;
 }
 .flavor-items{
-  border:2px solid lime;
+  /* border:2px solid lime; */
   width: 48.5%;
   height: 350px;
   float: left;
   background-size: cover;
   background-position: center;
-  /* margin-bottom: 3%;
-  margin-right: 1.5%; */
-  margin: 1% 0.7%;
-}
-.flavor-item1{
-  border: 1px solid blue;
-  background-image: url(../images/flavor-pumpkin.jpeg);
-}
-.flavor-item2{
-  border: 1px solid blue;
-  background-image: url(../images/flavor-mocha.jpeg);
-}
-.flavor-item3{
-  border: 1px solid blue;
-  background-image: url(../images/flavor-hazelnuts.jpg);
-}
-.flavor-item4{
-  border: 1px solid blue;
-  background-image: url(../images/flavor-cinnamon.jpeg);
-}
-.flavor-item:nth-child(2),
-.flavor-item:nth-child(4){
-  margin-right: 0;
+  margin-bottom: 1%;
+  margin-right: 3%;
+  margin-top: 2%;
 }
 .flavor-text{
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  position:relative;
+  top: 40%;
+  left: 2%;
+  width: 65%;
 }
+.flavor-item1{
+  /* border: 1px solid blue; */
+  background-image: url(../images/flavor-pumpkin.jpeg);
+  color: #fff;
+  text-shadow: 3px 3px 6px #b5a8a0;
+}
+.flavor-item2{
+  /* border: 1px solid blue; */
+  background-image: url(../images/flavor-mocha1.jpg);
+  color: #fff;
+  text-shadow: 3px 3px 6px #b5a8a0;
+  margin-right: 0;
+}
+.flavor-item3{
+  /* border: 1px solid blue; */
+  background-image: url(../images/flavor-hazelnuts.jpg);
+  color: #fff;
+  text-shadow: 3px 3px 6px #b5a8a0;
+}
+.flavor-item4{
+  /* border: 1px solid blue; */
+  background-image: url(../images/flavor-cinnamon.jpeg);
+  text-shadow: 3px 3px 6px #312a26;
+  margin-right: 0;
+}
+.flavor-text h3{
+  font-size: 2em;
 
-
-
+}
 
 /* Footer Area */
 .footer{
@@ -527,16 +536,13 @@ form input[type="submit"]{
   background-position: center;
   padding-top: 2em;
   padding-bottom: 2em;
-  color: white;
 }
 .footer-contents{
-  /* border: 2px solid lime; */
   width: 85%;
   margin: auto;
   overflow: auto;
 }
 .footer-widgets{
-  /* border: 1px solid orange; */
   width: 24.25%;
   float: left;
   margin-right: 1%;
@@ -547,7 +553,7 @@ form input[type="submit"]{
 .footer-widgets h3{
   color: #fff;
   text-transform: uppercase;
-  text-shadow: 3px 3px 6px #312a26;
+  text-shadow: 3px 3px 5px #312a26;
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -565,25 +571,21 @@ form input[type="submit"]{
 .footer-form *{
   width: auto;
 }
-
-/* footer-social */
+/* Footer Social */
 .footer-social{
-  /* border: 2px solid blue; */
   color: #fff;
-  background-color: #19100F;
+  background-color: #19100f;
   overflow: auto;
   padding: 1em 7.5%;
 }
-.social-widgets{
-  /* border: 1px solid lime; */
+.social-widget{
   width: 32.66%;
   float: left;
   text-align: center;
 }
-.social-widgets h3{
-  /* border: 2px solid pink; */
+.social-widget h3{
   text-transform: uppercase;
 }
-.social-widgets img{
+.social-widget img{
   width: 1.5em;
 }
